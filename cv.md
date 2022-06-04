@@ -64,8 +64,3 @@ WB-clone: https://karinakolos.github.io/Wildberries-clone/
 ## Hobby:
 
 love to code and coffee.
-
-### Hobby:
-
-- For 13 years I have been engaged in dancing, at the moment I am dancing in the support group of BC Tsmoki-Minsk;
-- Reading books
