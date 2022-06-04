@@ -16,7 +16,7 @@ LOCATION: Belarus, Minsk
 
 ## About me:
 
-I am 23 years old. I am currently taking two courses in front-end development. My goal is to learn everything new and interesting, to develop in an interesting direction for myself. I can spend a lot of time doing what I'm interested in. My main strengths are in fast learning and mindfulness . I want to get the knowledge and skills that will be enough for employment in the company.
+I am 23 years old. I am currently learning two courses in front-end development. My goal is to learn everything new and interesting, to develop in an interesting direction for myself. I can spend a lot of time doing what I'm interested in. My main strengths are in fast learning and mindfulness . I want to get the knowledge and skills that will be enough for employment in the company.
 
 ---
 
@@ -36,19 +36,20 @@ I am 23 years old. I am currently taking two courses in front-end development. M
 
 ### University:
 
-BELARUSIAN STATE UNIVERSITY. Faculty of Economics, specialty manager-Economist.( Average score 8,5).
+BELARUSIAN STATE UNIVERSITY. Faculty of Economics, specialty manager-Economist (Average score 8,5).
 
 ### Courses:
 
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-- TMS. Front End developer. (HTML, CSS, JS, REACT)
+- TMS. Front End developer (HTML, CSS, JS, REACT).
 
 ---
 
 ## learning project:
 
-Trello-clone: https://karinakolos.github.io/Trello-clone/
-WB-clone: https://karinakolos.github.io/Wildberries-clone/
+Trello-clone: <https://karinakolos.github.io/Trello-clone/>
+
+WB-clone: <https://karinakolos.github.io/Wildberries-clone/>
 
 ## Languages:
 
@@ -59,8 +60,8 @@ WB-clone: https://karinakolos.github.io/Wildberries-clone/
 
 ## Experience:
 
-- 04.01.2021-present - site content manager
+- 04.01.2021-present - site content manager.
 
 ## Hobby:
 
-love to code and coffee.
+I love to code and coffee.
