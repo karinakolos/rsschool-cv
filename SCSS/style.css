@@ -20,7 +20,8 @@ p,
 h1,
 h2,
 ul,
-a {
+a,
+code {
   color: #fff;
 }
 
