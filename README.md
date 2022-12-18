@@ -1,3 +1,3 @@
-https://karinakolos.github.io/rsschool-cv/cv
+# rsschool-cv
 
 https://karinakolos.github.io/rsschool-cv/
