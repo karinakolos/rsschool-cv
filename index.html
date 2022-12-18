@@ -1,9 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV. Karina Kolos</title>
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./SCSS/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>макет</h1>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container title">
+        <div class="col-30">
+          <img src="./image/personal-photo.jpg" alt="Personal photo" />
+        </div>
+        <div class="col-70">
+          <h1><span>karina</span> <br />kolos</h1>
+          <p>Frontend Developer</p>
+        </div>
+      </div>
+      <div class="container info">
+        <div class="col-30">
+          <h2 id="contacts">Contacts</h2>
+          <ul>
+            <li>
+              <img src="./image/phone-call.png" alt="Phone" />+375293532967
+            </li>
+
+            <li>
+              <img src="./image/telegram.png" alt="telegram" />
+              <a href=" https://t.me/karina_kolos">karina_kolos</a>
+            </li>
+            <li>
+              <img src="./image/github.png" alt="GitHub" />
+              <a href="https://github.com/karinakolos/">karinakolos</a>
+            </li>
+            <li>
+              <img src="./image/email.png" alt="email" />
+              <a href="karina.kolos@mail.ru">karina.kolos@mail.ru</a>
+            </li>
+          </ul>
+          <h2 id="education">Education</h2>
+          <p class="subtitle">University:</p>
+          <p>
+            BELARUSIAN STATE UNIVERSITY.
+            <br />
+            Faculty of Economics, specialty manager-Economist (Average score
+            8,5)
+          </p>
+          <p class="subtitle">Courses:</p>
+          <ul>
+            <li>
+              RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+            </li>
+            <li>TMS. Front End developer (HTML, CSS, JS, REACT)</li>
+          </ul>
+          <h2>Experience</h2>
+          <p>04.01.2021-present - site content manager</p>
+        </div>
+        <div class="col-70">
+          <div class="about">
+            <p>Hi, I'm Karina!</p>
+            <p>
+              I'm 23 years old. I'm currently learning two courses in front-end
+              development. My goal is to learn everything new and interesting,
+              to develop in an interesting direction for myself. I can spend a
+              lot of time doing what I’m interested in. My main strengths are in
+              fast learning and mindfulness . I want to get the knowledge and
+              skills that will be enough for employment in the company.
+            </p>
+            <p>love to code and coffee.</p>
+          </div>
+
+          <h2 id="skills">Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Framework Bootstrap</li>
+            <li>Preprocessor SCSS</li>
+            <li>BEM methodology</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>REACT</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Figma (for web development)</li>
+          </ul>
+          <h2 id="projects">Projects</h2>
+          <div class="project">
+            <div class="project-item">
+              <a href="https://bookstore-lib.netlify.app/?page=1"
+                ><img src="./image/bookstore.png" alt="bookstore"
+              /></a>
+              <a href="https://bookstore-lib.netlify.app/?page=1">Bookstore</a>
+            </div>
+
+            <div class="project-item">
+              <a href="https://karinakolos.github.io/Trello-clone/"
+                ><img src="./image/trello.jpg" alt="trello"
+              /></a>
+              <a href="https://karinakolos.github.io/Trello-clone/"
+                >Trello-clone</a
+              >
+            </div>
+
+            <div class="project-item">
+              <a href="https://karinakolos.github.io/Wildberries-clone/"
+                ><img src="./image/wb.jpg" alt="Wildberries-clone"
+              /></a>
+              <a href="https://karinakolos.github.io/Wildberries-clone/"
+                >Wildberries-clone</a
+              >
+            </div>
+          </div>
+          <h2 id="code">Code example</h2>
+          <code>
+            <span class="beige">const</span>
+            <span>status</span> = <span class="beige">users</span>.<span
+              class="pink"
+              >reduce</span
+            >((<span>acc</span>, <span>user</span>) => {
+
+            <br />
+            <span class="beige">const</span> [<span>firstLetter</span>] =
+            <span>user</span>.<span class="pink">last_name</span>.<span
+              class="pink"
+              >split</span
+            >("");
+            <br />
+            <span class="beige">if</span>
+            (!<span>acc</span>[<span>firstLetter</span>]) {
+            <br />
+            <span>acc</span>[<span>firstLetter</span>] = [];
+            <br />
+            }
+            <br />
+            <span>acc</span>[<span>firstLetter</span>].<span class="pink"
+              >push</span
+            >(<span>user</span>.<span class="pink">last_name</span>);
+            <br />
+            <span class="beige">return</span> <span>acc</span>;
+            <br />
+            }, {});
+          </code>
+          <h2>Languages</h2>
+          <p>Russian: Native</p>
+          <p>English: A2 (B1 in process…)</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>Belarus, Minsk. 2022</p>
+        <a href="">
+          <img src="./image/github_footer.png" alt="github" />Me on GitHub</a
+        >
+        <a href="https://rs.school/js/">
+          <img src="./image/rs_school.svg" alt="logo"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="/app.js"></script>
   </body>
 </html>
